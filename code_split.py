@@ -2,7 +2,7 @@
 from PIL import Image
 
 #验证码图片数量
-imgNum = 500
+imgNum = 1
 #灰度阀值
 threshold = 127
 table = [0 if i < threshold else 1 for i in range(256)]
